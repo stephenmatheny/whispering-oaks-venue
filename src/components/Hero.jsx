@@ -57,26 +57,26 @@ export default function Hero({ venue }) {
               className="h-full w-full object-cover"
             />
           </div>
-            <a
-  href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(
-    venue.addressLines.join(", ")
-  )}`}
-  target="_blank"
-  rel="noopener noreferrer"
-  className="group block rounded-xl p-2 transition hover:bg-neutral-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-neutral-900"
-  aria-label="Open location in maps"
->
-          <div className="absolute -left-4 -bottom-6 flex items-center gap-3 rounded-2xl bg-white px-4 py-3 shadow-lg shadow-neutral-900/10 ring-1 ring-neutral-200/80">
-            <div className="flex h-10 w-10 items-center justify-center rounded-full bg-neutral-900 text-xs font-semibold uppercase text-white">
-              W
+          <a
+            href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(
+              venue.addressLines.join(", ")
+            )}`}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group block rounded-xl p-2 transition hover:bg-neutral-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-neutral-900"
+            aria-label="Open location in maps"
+          >
+            <div className="absolute -left-4 -bottom-6 flex items-center gap-3 rounded-2xl bg-white px-4 py-3 shadow-lg shadow-neutral-900/10 ring-1 ring-neutral-200/80">
+              <div className="flex h-10 w-10 items-center justify-center rounded-full bg-neutral-900 text-xs font-semibold uppercase text-white">
+                W
+              </div>
+              <div>
+                <p className="text-xs font-semibold uppercase tracking-[0.2em] text-neutral-500">Visit us</p>
+                <p className="text-sm font-medium text-neutral-900">{venue.addressLines[0]}</p>
+                <p className="text-xs text-neutral-600">{venue.addressLines[1]}</p>
+              </div>
             </div>
-            <div>
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] text-neutral-500">Visit us</p>
-              <p className="text-sm font-medium text-neutral-900">{venue.addressLines[0]}</p>
-              <p className="text-xs text-neutral-600">{venue.addressLines[1]}</p>
-            </div>
-          </div>
-            </a>
+          </a>
         </div>
       </Container>
     </section>

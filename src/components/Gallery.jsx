@@ -167,7 +167,6 @@ export default function Gallery({ venue }) {
                     key={`${absoluteIndex}-${src}`}
                     onClick={() => {
                       setFeaturedIndex(absoluteIndex);
-                      setLightboxIndex(absoluteIndex);
                     }}
                     className={`group relative overflow-hidden rounded-2xl border border-neutral-200/80 bg-white shadow-sm ring-1 ring-neutral-100 transition focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-neutral-900 ${
                       isActive ? "ring-2 ring-neutral-900" : ""

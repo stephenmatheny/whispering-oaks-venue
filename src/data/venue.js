@@ -24,10 +24,9 @@ export const venue = {
     bullets: ["Glass-roof pavilion", "Indoor / outdoor flexibility", "Personal tours by appointment"],
   },
   gallery: [
-    "//img1.wsimg.com/isteam/ip/426f0d6a-6e64-43f6-9c52-9c9eb80448b3/DSC01731.jpg/:/",
-    "//img1.wsimg.com/isteam/ip/426f0d6a-6e64-43f6-9c52-9c9eb80448b3/sign%20(3).jpg/:/",
-    "//img1.wsimg.com/isteam/ip/426f0d6a-6e64-43f6-9c52-9c9eb80448b3/DSC01757.jpg/:/",
+    "https://img1.wsimg.com/isteam/ip/426f0d6a-6e64-43f6-9c52-9c9eb80448b3/sign%20(3).jpg/:/",
     "//img1.wsimg.com/isteam/ip/426f0d6a-6e64-43f6-9c52-9c9eb80448b3/DSC01765.jpg/:/",
+    "//img1.wsimg.com/isteam/ip/426f0d6a-6e64-43f6-9c52-9c9eb80448b3/DSC01731.jpg/:/",
     "//img1.wsimg.com/isteam/ip/426f0d6a-6e64-43f6-9c52-9c9eb80448b3/DSC01733.jpg/:/",
     "//img1.wsimg.com/isteam/ip/426f0d6a-6e64-43f6-9c52-9c9eb80448b3/DSC01775.jpg/:/",
     "//img1.wsimg.com/isteam/ip/426f0d6a-6e64-43f6-9c52-9c9eb80448b3/IMG_3176.JPG/:/",
